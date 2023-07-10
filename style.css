@@ -78,10 +78,7 @@ body{
     height: 400px;
 }
 /*Insta style*/
-.instagram
-{
 
-}
 .insta-header
 {
     color: #272727;
@@ -99,4 +96,12 @@ body{
     font-weight: 400;
     margin-bottom: 50px;
 
+}
+.insta-img-conteinar
+{
+   padding: 0px 130px 0px 130px;
+}
+.insta-img
+{
+  padding: 0px 7px 0px 7px;
 }
