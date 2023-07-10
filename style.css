@@ -17,6 +17,9 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
+.text-primary{
+    color: #E55473;
+}
 /*banner style*/
 .banner
 {
@@ -73,4 +76,27 @@ body{
 {
     width: 300px;
     height: 400px;
+}
+/*Insta style*/
+.instagram
+{
+
+}
+.insta-header
+{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 124px;
+    margin-bottom: 24px;
+}
+.insta-description
+{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+
 }
