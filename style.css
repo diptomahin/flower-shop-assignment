@@ -192,11 +192,7 @@ body {
     margin-left: 140px;
 
 }
-.text1{
-    margin-right: 40px;
-}
-.text
-.text
+
 
 /*hot deals style*/
 .hot-deals {
@@ -327,4 +323,58 @@ body {
     font-weight: 400;
     padding-bottom: 120px;
 
+}
+/*gift section*/
+.gift{
+    background-color: #E554731A;
+    margin: 120px 130px 120px 130px;
+    padding: 140px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+form{
+    display: block;
+}
+form>label>input{
+    margin-top: 20px;
+}
+fieldset{
+    margin-left: 310px;
+    margin-top: 20px;
+    width: 500px;
+    height: 396px;
+    margin-bottom: 30px;
+}
+fieldset > label{
+    text-align: center;
+    display: flex;
+}
+.gift-input{
+    width: 600px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    border: 0px;
+    padding-left: 20px;
+}
+.gift-header{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+    
+fieldset >legend{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+fieldset>label>input{
+   
 }
