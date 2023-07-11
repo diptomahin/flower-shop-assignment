@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /*shared styles*/
-body{
+body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.btn-primary
-{
+
+.btn-primary {
     border-radius: 8px;
     background: #E55473;
     padding: 20px 40px;
@@ -17,42 +18,120 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
-.text-primary{
+
+.text-primary {
     color: #E55473;
 }
+
 /*banner style*/
-.banner
-{
+.banner {
     background-color: #E554731A;
     display: flex;
     align-items: center;
 }
-.banner-content
-{
+
+.banner-content {
     margin: 190px;
     margin-left: 160px;
     color: #272727;
     font-size: 20px;
     font-weight: 300;
 }
-.banner-description
-{
+
+.banner-description {
     color: #27272799;
     font-size: 18px;
     font-weight: 400;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.banner-img
-{
+
+.banner-img {
     width: 585px;
     height: 700px;
     margin-top: 50px;
     margin-right: 150px;
 }
 
+/*Featured styles*/
+.featured {
+    text-align: center;
+    margin-top: 170px;
+    
+}
+
+.featured-text {}
+
+.featured-heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+.featured-img-container{
+    display: flex;
+    margin: 0 220px;
+    justify-content: space-between;
+   
+
+    
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+
+}
+.featured-flowers{
+    width: 400px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+
+}
+#flower-one{
+    background: rgba(167, 33, 98, 0.15);
+
+}
+.more-flowers-1{
+    width: 300px;
+    height: 420px;
+    padding-top: 32px;
+    padding-bottom: 50px;
+}
+
+#flower-two{
+
+    background: rgba(5, 151, 160, 0.15);
+}
+.more-flowers-2{
+    width: 370px;
+    height: 370px;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-bottom: 80px;
+
+}
+
+
+#flower-three{
+    background: rgba(71, 125, 17, 0.15);
+}
+.more-flowers-3{
+    width: 300px;
+    height: 451px;
+}
+.flower-img-text{
+
+    color: #272727;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
 /*hot deals style*/
-.hot-deals{
+.hot-deals {
     display: flex;
     background-color: #E554731A;
     margin: 50px 0px;
@@ -60,11 +139,12 @@ body{
     padding: 100px;
     align-items: center;
 }
-.hot-deals-container
-{
+
+.hot-deals-container {
     text-align: center;
 }
-.deals-description{
+
+.deals-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -72,15 +152,15 @@ body{
     margin-bottom: 30px;
 
 }
-.hot-deals-img
-{
+
+.hot-deals-img {
     width: 300px;
     height: 400px;
 }
+
 /*Insta style*/
 
-.insta-header
-{
+.insta-header {
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -88,8 +168,8 @@ body{
     margin-top: 124px;
     margin-bottom: 24px;
 }
-.insta-description
-{
+
+.insta-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -97,33 +177,33 @@ body{
     margin-bottom: 50px;
 
 }
-.insta-img-conteinar
-{
-   padding: 0px 130px 0px 130px;
+
+.insta-img-conteinar {
+    padding: 0px 130px 0px 130px;
 }
-.insta-img
-{
-  padding: 0px 7px 0px 7px;
+
+.insta-img {
+    padding: 0px 7px 0px 7px;
 }
+
 /*Latest deals section*/
-.latest-deals
-{
-    background-image: url(./img/Rectangle\ 9.png);
+.latest-deals {
+    background-image: url("./img/Rectangle\ 9.png");
     color: #272727;
     padding: 50px;
     margin: 120px 130px 120px 130px;
 
 }
-.latest-deals-heading
-{
+
+.latest-deals-heading {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     padding-top: 30px;
 }
-.latest-deals-description
-{
+
+.latest-deals-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -131,15 +211,15 @@ body{
     margin-top: 15px;
     margin-bottom: 50px;
 }
-.email
-{
-align-items: center;
-padding-left: 280px;
-padding-bottom: 100px;
-  
+
+.email {
+    align-items: center;
+    padding-left: 280px;
+    padding-bottom: 100px;
+
 }
-#email-input
-{
+
+#email-input {
     width: 600px;
     height: 64px;
     border-radius: 8px;
@@ -150,30 +230,30 @@ padding-bottom: 100px;
     padding-left: 20px;
     border: 0;
 }
+
 /*Footer styles*/
-.footer
-{
+.footer {
     background-color: #111010;
     text-align: center;
     color: #FFFFFF;
     padding-top: 120px;
 }
-.footer-heading
-{
-  font-size: 48px;
-font-weight: 800;
+
+.footer-heading {
+    font-size: 48px;
+    font-weight: 800;
 
 }
-.footer-description
-{
+
+.footer-description {
     color: rgba(255, 255, 255, 0.90);
     font-size: 18px;
     font-weight: 400;
     margin-top: 24px;
     margin-bottom: 30px;
 }
-.copy-right
-{
+
+.copy-right {
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     font-weight: 400;
